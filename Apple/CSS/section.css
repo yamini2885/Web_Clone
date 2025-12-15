@@ -1,1 +1,705 @@
+#section1{
+    /* border: 2px solid red; */
+    height: 82vh;
+    margin-top: 48px;
+    background-image: url(../images/1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    
 
+}
+/* #section1 h2 svg{
+    height: 5em;
+    fill: #007aff;
+    height: 156px; ;
+    width: 250px;
+    margin-left: 700px;
+    margin-top: 50px;
+    font-size: 48px;
+    font-weight: 600;
+    color: #fff;
+
+} */
+#section1{
+    fill: #007aff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+#section1 h2 svg{
+    height: 6.8em;
+    /* position: absolute;
+    z-index: 1; */
+}
+.bubble-copy{
+    color: #f5f5f7;
+}
+.bubble-copy-1{
+    font-size: 90px;
+    font-weight: 600px;
+    /* width: 250px;
+    height: 156.66px; */
+    line-height: 1.08350em;
+
+}
+/* .bubble-copy-2{
+    height: 39.19px;
+    width: 256px;
+}
+.bubble-copy-3{
+    width: 262px;
+    height: 200.2px;
+} */
+ 
+#sub-section svg{
+width: 16em;
+height: 2.5em;
+}
+.bubble-copy-2{
+    font-size: 47px;
+    font-weight: 600px;
+    color: #fff;
+}
+
+#sub-section1{
+    height: 12.5em;
+    width: 16em;
+    margin-top: 18px;
+}
+.bubble-copy-3{
+    font-size: 88px;
+    font-weight: 600;
+    line-height: 1.083em;
+    padding-top: 8px;
+}
+.footnote{
+    font-size: 40px;
+}
+
+
+#laptop{
+    /* width: 129px;
+    height: 93px;
+    position: absolute;
+    top: 170px;
+    left: 820px;*/
+    z-index: 3; 
+    /* border: 2px solid; */
+    width: 129px;
+    height: 93px;
+    background-image: url("../images/laptop.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 129px 93px;
+    position: absolute;
+    top: 130px;
+    left: 810px;
+}
+#tab{
+    /* border: 2px solid; */
+    background-image: url("../images/tab.png");
+    width: 74px;
+    height: 89px;
+    position: absolute;
+    z-index: 2;
+    top: 205px;
+    left: 840px;
+}
+#sub-section1 img{
+    position: absolute;
+    top: 335px;
+    left: 645px;
+}
+#section1 button{
+    margin: 23px;
+    padding: 12px 25px;
+    border-radius: 50px;
+    border-color: #06c;
+    border: 1px solid;
+    color: #06c;
+    font-size: 17px;
+    font-weight: 400;
+}
+#section1 button:hover{
+    background-color: #0071e3;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+}
+
+
+#section2{
+    /* border: 2px solid; */
+    height: 82vh;
+    margin-top: 15px;
+    background-image: url("../images/section2-back");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* gap: 20px; */
+
+
+}
+#section2 h1{
+    font-size: 56px;
+    font-weight: 600;
+    padding-top: 40px;
+    color: #1d1d1f;
+    font-family:    system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+}
+#section2 p{
+    padding-top: 8px;
+    font-size: 28px;
+    font-weight: 400;
+    color: #1d1d1f;
+}
+#section2{
+    padding-top: 10px;
+}
+#section2 button{
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-size: 17px;
+    font-weight: 400;
+    background-color: #0071e3;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+#section2 button + button{
+    margin-left:16px;
+    background-color: #fff;
+    color: #0071e3;
+    border: 1px solid;
+    background-color: transparent;
+}
+#section2 button + button:hover{
+    background-color: #0071e3;
+    color: #fff;
+}
+
+#section2 > div + p{
+    padding-top: 23px;
+    font-size:21px ;
+    font-weight: 500;
+    background: linear-gradient(94deg,#0090f7,#ba62fc,#f2416B,#f55600);
+    background-clip: text;
+    color: transparent;
+}
+
+#section3{
+    /* border: 2px solid; */
+    height: 82vh;
+    margin-top: 15px;
+    background-image: url("../images/section3\ back.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* gap: 20px; */
+
+
+}
+#section3 h1{
+    font-size: 56px;
+    font-weight: 600;
+    padding-top: 40px;
+    color: #1d1d1f;
+    font-family:    system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+}
+#section3 p{
+    padding-top: 8px;
+    font-size: 28px;
+    font-weight: 400;
+    color: #1d1d1f;
+    text-align: center;
+}
+#section3{
+    padding-top: 10px;
+}
+#section3 button{
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-size: 17px;
+    font-weight: 400;
+    background-color: #0071e3;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+#section3 button + button{
+    margin-left:16px;
+    background-color: #fff;
+    color: #0071e3;
+    border: 1px solid;
+    background-color: transparent;
+}
+#section3 button + button:hover{
+    background-color: #0071e3;
+    color: #fff;
+}
+
+#section3 > div + p{
+    padding-top: 23px;
+    font-size:21px ;
+    font-weight: 500;
+    background: linear-gradient(94deg,#0090f7,#ba62fc,#f2416B,#f55600);
+    background-clip: text;
+    color: transparent;
+    margin-top: 200px;
+}
+
+
+#section4{
+    /* border: 2px solid; */
+    width: 98%;
+    margin: auto;
+    height: 82vh;
+    display: flex;
+    list-style: none;
+    gap: 15px;
+    margin-top: 15px;
+    font-family:    system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    
+}
+
+#section4 li{
+    /* border: 5px solid red; */
+    height: inherit;
+    flex: 1;
+    text-align: center;
+    
+
+
+}
+#section4 li:nth-child(1)
+{
+    background-image: url("../images/section4\ left.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#section4 li:nth-child(2)
+{
+    background-image: url("../images/section4\ right.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#section4-left h1{
+color: #fff;
+    font-size: 40px;
+    font-weight: 500;
+    padding-top: 40px;
+    text-align: center;
+}
+#section4-left p{
+    padding-top: 2px;
+    font-size: 20px;
+    font-weight: 400;
+    color:#fff;
+    text-align: center;
+}
+#section4-left{
+    padding-top: 10px;
+}
+#section4-left button{
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-size: 17px;
+    font-weight: 400;
+    background-color: #0071e3;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+#section4-left button + button{
+    margin-left:16px;
+    background-color: #fff;
+    color: #0071e3;
+    border: 1px solid;
+    background-color: transparent;
+}
+#section4-left button + button:hover{
+    background-color: #0071e3;
+    color: #fff;
+}
+
+#section4-left > div + p{
+    padding-top: 23px;
+    font-size:21px ;
+    font-weight: 500;
+    background: linear-gradient(94deg,#0090f7,#ba62fc,#f2416B,#f55600);
+    background-clip: text;
+    color: transparent;
+    margin-top: 300px;
+}
+
+
+#section4-right h1{
+color: #1d1d1f;
+    font-size: 30px;
+    font-weight: 800;
+    padding-top: 70px;
+    text-align: center;
+}
+#section4-right h3{
+    color: #1d1d1f;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    padding-left: 28px;
+    margin-top: -5px;
+}
+#section4-right p{
+    padding-top: 2px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #1d1d1d;
+    text-align: center;
+}
+#section4-right{
+    padding-top: 10px;
+}
+#section4-right button{
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-size: 17px;
+    font-weight: 400;
+    background-color: #0071e3;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+#section4-right button + button{
+    margin-left:16px;
+    background-color: #fff;
+    color: #0071e3;
+    border: 1px solid;
+    background-color: transparent;
+}
+#section4-right button + button:hover{
+    background-color: #0071e3;
+    color: #fff;
+}
+
+
+#section5{
+    /* border: 2px solid; */
+    width: 98%;
+    margin: auto;
+    height: 82vh;
+    display: flex;
+    list-style: none;
+    gap: 15px;
+    margin-top: 15px;
+    font-family:    system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;   
+}
+
+#section5 li{
+    /* border: 5px solid red; */
+    height: inherit;
+    flex: 1;
+    text-align: center;
+}
+#section5 li:nth-child(1)
+{
+    background-image: url("../images/section5\ left.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#section5 li:nth-child(2)
+{
+    background-image: url("../images/section5\ right.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#section5-left button{
+    margin-left:16px;
+    /* background-color: #fff; */
+    color: #0071e3;
+    border: 1px solid;
+    background-color: transparent;
+}
+
+#section5-left button{
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-size: 17px;
+    font-weight: 400;
+    background-color:#fff;
+    color: #1d1d1f;
+    border: none;
+    cursor: pointer;
+    margin-top: 500px;
+}
+
+#section5-right h1{
+color: #fff;
+    font-size: 40px;
+    font-weight: 500;
+    padding-top: 350px;
+    text-align: center;
+}
+#section5-right p{
+    padding-top: 2px;
+    font-size: 20px;
+    font-weight: 400;
+    color:#fff;
+    text-align: center;
+}
+#section5-right{
+    padding-top: 10px;
+}
+#section5-right button{
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-size: 17px;
+    font-weight: 400;
+    background-color: #0071e3;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+#section5-right button + button{
+    margin-left:16px;
+    background-color: #fff;
+    color: #0071e3;
+    border: 1px solid;
+    background-color: transparent;
+}
+#section5-right button + button:hover{
+    background-color: #0071e3;
+    color: #fff;
+}
+
+
+
+#section6{
+    /* border: 2px solid; */
+    width: 98%;
+    margin: auto;
+    height: 82vh;
+    display: flex;
+    list-style: none;
+    gap: 15px;
+    margin-top: 15px;
+    font-family:    system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;   
+}
+
+#section6 li{
+    /* border: 5px solid red; */
+    height: inherit;
+    flex: 1;
+    text-align: center;
+}
+#section6 li:nth-child(1)
+{
+    background-image: url("../images/section6\ left.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#section6 li:nth-child(2)
+{
+    background-image: url("../images/section6\ right.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#section6-left h1{
+color: #fff;
+    font-size: 40px;
+    font-weight: 500;
+    padding-top: 40px;
+    text-align: center;
+}
+#section6-left p{
+    padding-top: 2px;
+    font-size: 20px;
+    font-weight: 400;
+    color:#fff;
+    text-align: center;
+}
+#section6-left{
+    padding-top: 10px;
+}
+#section6-left button{
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-size: 17px;
+    font-weight: 400;
+    background-color: #0071e3;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+#section6-left button + button{
+    margin-left:16px;
+    background-color: #fff;
+    color: #0071e3;
+    border: 1px solid;
+    background-color: transparent;
+}
+#section6-left button + button:hover{
+    background-color: #0071e3;
+    color: #fff;
+}
+
+#section6-left > div + p{
+    padding-top: 23px;
+    font-size:21px ;
+    font-weight: 500;
+    background: linear-gradient(94deg,#0090f7,#ba62fc,#f2416B,#f55600);
+    background-clip: text;
+    color: transparent;
+    margin-top: 300px;
+}
+
+#section6-right h1{
+color:#1d1d1f;
+    font-size: 40px;
+    font-weight: 500;
+    padding-top: 50px;
+    text-align: center;
+}
+#section6-right p{
+    padding-top: 2px;
+    font-size: 20px;
+    font-weight: 400;
+    color:#1d1d1f;
+    text-align: center;
+}
+#section6-right{
+    padding-top: 10px;
+}
+#section6-right button{
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-size: 17px;
+    font-weight: 400;
+    background-color: #0071e3;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+
+footer{
+    background-color: rgb(245,245,247);
+
+}
+#section7{
+/* border: 2px solid; */
+    width: 65%;
+    margin: auto;
+    color: rgba(0, 0, 0, 0.56);
+    margin-top: 10px;
+    padding-top: 15px;
+    
+}
+#main-foot{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    color: #1d1d1f;
+    font-weight: 500;
+    padding-bottom: 15px;
+}
+#main-foot ul li{
+    list-style: none;
+    line-height: 30px;
+  
+}
+#main-foot ul li:hover{
+  text-decoration: underline;
+}
+
+#list1 li:nth-child(1){
+    color: #1d1d1d;
+    font-weight: 700;
+}
+#list1 li:nth-child(13){
+    color: #1d1d1d;
+    font-weight: 700;
+
+}
+#list2 li:nth-child(1){
+    color: #1d1d1d;
+    font-weight: 700;
+
+}
+#list2 li:nth-child(6){
+    color: #1d1d1d;
+    font-weight: 700;
+}
+#list3 li:nth-child(1){
+    color: #1d1d1d;
+    font-weight: 700;
+}
+
+#list4 li:nth-child(1){
+    color: #1d1d1d;
+    font-weight: 700;
+}
+#list4 li:nth-child(5){
+    color: #1d1d1d;
+    font-weight: 700;
+}
+#list4 li:nth-child(9){
+    color: #1d1d1d;
+    font-weight: 700;
+}
+#list5 li:nth-child(1){
+    color: #1d1d1d;
+    font-weight: 700;
+}
+#list5 li:nth-child(8){
+    color: #1d1d1d;
+    font-weight: 700;
+}
+#list1 li:nth-child(1):hover:hover,#list1 li:nth-child(13):hover,list2 li:nth-child(1):hover,list2 li:nth-child(6):hover,list3 li:nth-child(1):hover,#list4 li:nth-child(1):hover,#list4 li:nth-child(5):hover,#list4 li:nth-child(9):hover,#list5 li:nth-child(8):hover,#list5 li:nth-child(1):hover
+{
+text-decoration: none;
+cursor: pointer;
+}
+#last-foot{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    color: #1d1d1f;
+    font-weight: 500;
+    padding-bottom: 15px;
+}
+#last-foot ol li{
+    list-style: none;
+}
+#last-foot ol li:hover{
+    text-decoration: underline;
+}
+#last-foot ol:nth-child(2){
+    list-style: none;
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+    margin-left: -200px;
+
+}
