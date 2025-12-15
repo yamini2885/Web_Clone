@@ -1,1 +1,65 @@
+@import url(./section.css);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial","sans-serif";
+    font-size: 12px;
+    font-weight: 400;
+}
+#nav{
+    /* border: 2px solid; */
+    height: 48px;
+    background-color: #FFFFFFCC;
+    position: fixed;
+    width: 100%;
+    
+
+}
+#sub-nav{
+    /* border: 2px solid red; */
+    height: inherit;
+    width: 66%;
+    margin: auto;
+}
+#sub-nav ol{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 400;
+    color: #333336;
+    
+}
+#sub-nav ol li:hover{
+    cursor: pointer;
+    color: #000;
+}
+#sub-nav1{
+    height: 48px;
+    /* background-color: #FBFBFD; */
+    color: #1d1d1f;
+    position: relative;
+     padding: 12px 0;
+      font-size: 14px;
+      text-align: center;
+      top: 46px;
+      /* border: 2px solid blue; */
+      font-weight: 400;
+      background-color: #fff;
+
+}
+#sub-nav1 p a{
+   
+    text-decoration: none;
+   
+}
+#sub-nav1 p sup{
+    text-decoration: underline;
+}
 
